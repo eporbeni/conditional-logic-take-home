@@ -75,8 +75,8 @@ We provide these examples for quick testing, but your solution should work again
 
 ## Getting Started and Submitting Your Code
 
-Follow [GitHub's instructions to create a new repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in order to create a new repository for your solution.
+To get started, fork this repository or [use it as template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in order to create a new repository for your solution.
 
-Once you have finished working on the problem, send a link to the repository containing your solution back to our team.
+Once you have finished working on the problem, send a link to your repository back to our team.
 
 Good luck - we can't wait to see what you come up with!
