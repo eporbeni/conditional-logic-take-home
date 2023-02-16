@@ -67,14 +67,16 @@ Condition: {
 
 ## Testing
 
-We provide a really basic environment that you can use to test your code. The provided `data.js` file contains sample questions, conditions, and responses. There are 2 example surveys and some example response sets in `data.js` - some valid, some not (note: We provide example data, but your solution should work for any survey with any set of conditions).
+Included in this repository is a basic environment that you can use to test your code. The provided `data.js` file contains sample questions, conditions, and responses. There are 2 example surveys and some example responses in `data.js` - some valid, some not.
 
 While implementing the `areResponsesValid` function in `index.js`, you can open the provided `test.html` file in your browser. In there you will see the expected result for each case in Column 2 and the current result of your function in Column 3.
 
+We provide these examples for quick testing, but your solution should work against any survey with any set of conditions.
+
 ## Getting Started and Submitting Your Code
 
-Follow [GitHub's instructions to create a new repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in order to create a new repository for your solutions.
+Follow [GitHub's instructions to create a new repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in order to create a new repository for your solution.
 
-Once you have finished implementing your solution, send a link to your repository back to our team.
+Once you have finished working on the problem, send a link to the repository containing your solution back to our team.
 
-Good luck!
+Good luck - we can't wait to see what you come up with!
