@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <script type="text/javascript" src="./test-data.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    <style type="text/css">
+      th {
+        text-align: left;
+        padding-right: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Test Name</th>
+          <th>Expected Result</th>
+          <th>Current Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <script type="text/javascript">
+    // This code is pretty sloppy - please forgive us. Just creating a quick and dirty
+    // test runner that has no dependencies to make your setup as easy as possible. This
+    // is not what our real code looks like!
+    const tbody = document.getElementsByTagName("tbody")[0];
+
+    fantasyExample.answersSets.forEach((answerSet, i) =>
+      tbody.insertAdjacentHTML(
+        "beforeend",
+        createRow(fantasyExample.survey, answerSet, `Fantasy ${i}`)
+      )
+    );
+
+    foodExample.answersSets.forEach((answerSet, i) =>
+      tbody.insertAdjacentHTML(
+        "beforeend",
+        createRow(foodExample.survey, answerSet, `Food ${i}`)
+      )
+    );
+
+    function createRow(survey, answerSet, testNumber) {
+      return `<tr>
+          <td>
+            ${testNumber}
+          </td>
+          <td>
+            ${answerSet.expected}
+          </td>
+          <td>
+            ${areAnswersValid(survey, answerSet.answers) ? "valid" : "invalid"}
+          </td>
+        </tr>`;
+    }
+  </script>
+</html>
