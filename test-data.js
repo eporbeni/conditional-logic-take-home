@@ -1,4 +1,4 @@
-window.fantasyExample = {
+export const fantasyExample = {
     survey: [
       {
         id: "1",
@@ -106,7 +106,7 @@ window.fantasyExample = {
     ],
   };
   
-  window.foodExample = {
+  export const foodExample = {
     survey: [
       {
         id: "1",
