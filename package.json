@@ -1,0 +1,13 @@
+{
+  "name": "conditional-logic-take-home-v2",
+  "version": "1.0.0",
+  "description": "At Polco, questions in our surveys can be “conditional”. This means that some questions are only shown to users if they select certain choices on other questions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type":"module"
+}
